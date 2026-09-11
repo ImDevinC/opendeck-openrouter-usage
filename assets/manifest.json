@@ -1,0 +1,30 @@
+{
+	"Name": "OpenRouter Credits",
+	"Author": "ImDevinC",
+	"Version": "0.0.1",
+	"Category": "OpenRouter",
+	"Icon": "icon",
+	"CategoryIcon": "openrouter",
+	"OS": [{ "Platform": "windows" }, { "Platform": "mac" }, { "Platform": "linux" }],
+	"CodePaths": {
+		"x86_64-pc-windows-msvc": "oaopenrouter-credits-x86_64-pc-windows-msvc.exe",
+		"x86_64-apple-darwin": "oaopenrouter-credits-x86_64-apple-darwin",
+		"aarch64-apple-darwin": "oaopenrouter-credits-aarch64-apple-darwin",
+		"x86_64-unknown-linux-gnu": "oaopenrouter-credits-x86_64-unknown-linux-gnu",
+		"aarch64-unknown-linux-gnu": "oaopenrouter-credits-aarch64-unknown-linux-gnu"
+	},
+	"CodePathWin": "oaopenrouter-credits-x86_64-pc-windows-msvc.exe",
+	"CodePathMac": "oaopenrouter-credits-x86_64-apple-darwin",
+	"CodePathLin": "oaopenrouter-credits-x86_64-unknown-linux-gnu",
+	"PropertyInspectorPath": "pi.html",
+	"Actions": [
+		{
+			"UUID": "com.imdevinc.openroutercredits.credits",
+			"Name": "Credits",
+			"Icon": "actions/icon",
+			"Tooltip": "Shows your remaining OpenRouter credits as currency",
+			"Controllers": ["Keypad"],
+			"States": [{ "Title": "Credits", "ShowTitle": false }]
+		}
+	]
+}
